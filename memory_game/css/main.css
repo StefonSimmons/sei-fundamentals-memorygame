@@ -8,7 +8,7 @@ main{
 	margin: 35px auto;
 }
 header{
-	background-color: #F15B31;
+	background-color: #F15B31; 
 	color: #FFFFFF;
 	padding:30px 20px;
 }
@@ -36,21 +36,42 @@ nav{
 	padding: 0 10px;
 	background-color: rgba(0,255,255,.2);
 }
-h2, h3{
+h2{
 	font-family: "Raleway",sans-serif;
 	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
 }
-
 p {
 	font-family: "Droid Serif", serif;
 	line-height: 26px;
 	font-size: 10px;
 }
+
+h3{
+	font-family: "Raleway",sans-serif;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 0px;
+}
+.score{
+	background: #0D2C40;
+	border: solid #F15B31 2px;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	padding: 14px;
+	color: white;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 img{
-	margin:40px 8px 0 8px;
+	margin:10px 8px 0 8px;
+
 }
 button{
 	font-size: 18px;
@@ -82,6 +103,7 @@ footer{
 	display: block;
 	content: " ";
 	clear: both;
+
 }
 .name{
 	color: #F15B31;
